@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+
+	printf("第一个代码\n");
+	return 0;
+}
