@@ -1,0 +1,10 @@
+#define max 99999
+#include <stdio.h>
+int main()
+{
+	int a = max;
+		printf("%d\n", a);
+
+	return 0;
+}
+
