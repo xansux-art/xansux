@@ -1,0 +1,20 @@
+//尝试转义字符
+#include<stdio.h>
+int main()
+{
+	printf("c:\test\test.c");
+	printf("ab\ncd");
+	printf("\n\n");
+	printf("(abcdef??)");  //理论上 ??)等同于]
+	printf("%c\n",'\'');
+	printf("c:\\test\\test");//    \\等用于\
+	printf("\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a\a");
+	printf("%c\n", '\101');
+	return 0;
+}
+
+
+//printf()在打印时，可以指定格式，，%d整型，%c字符，%s字符串
+//printf("%d\n", 100);
+//printf("%c\n", 'a');
+//printf("%s","abc");
