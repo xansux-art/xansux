@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int input = 0;
+	printf("加入菏泽一中：");
+	printf("是否好好学习（1/0）:");
+	scanf("%d", &input);
+	if (input == 1)
+		printf("好成绩，好工作\n");
+	else
+		printf("成绩不好，回家卖红薯\n");
+	return 0;
+}
