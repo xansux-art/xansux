@@ -1,0 +1,28 @@
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	while (a < 365)
+//	{
+//		printf("好好学习:第%d天\n", a);
+//		a++;
+//	}
+//	if (a == 365)
+//		printf("我在第%d天学会编程了\n",a);
+//    return 0;
+//}
+#include<stdio.h>
+int main()
+{
+	int day = 0;
+	while (day < 365)
+	{
+		printf("我要好好学习：第%d天\n", day);
+		day++;
+	}
+	if(day==365)
+	{
+		printf("在第%d天学成归来", day);
+	}
+	return 0;
+}
