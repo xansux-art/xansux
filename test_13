@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{int a=20;
+int* pa=&a;
+*pa=45;
+printf("%d",a);
+return 0;
+}
