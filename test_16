@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int M = 0;
+	scanf("%d", &M);
+	int a = M % 5;
+	if (a == 0)
+		printf("YES");
+	else
+		printf("NO");
+
+	return 0;
+}
