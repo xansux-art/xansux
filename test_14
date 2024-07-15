@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int a = 0;
+	int b = 0;
+	printf("a=");
+	scanf("%d", &a);
+	printf("b=");
+	scanf("%d", &b);
+	if (a >= b)
+		printf("较大值：%d\n", a);
+	else
+		printf("较大值：%d\n", b);
+	return 0;
+}
